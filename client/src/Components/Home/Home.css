@@ -1,0 +1,138 @@
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .Home-Content {
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Home .Home-Content .heading {
+    padding: 30px 50px;
+    background-color: #0D83DD;
+    color: #ffffff;
+    font-family: Quicksand;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.Home .Home-Content .heading i {
+    transition: .5s;
+    padding: 12px;
+    border-radius: 50%;
+    z-index: 500;
+}
+
+.Home .Home-Content .heading .bag:hover i {
+    background: #ffffff;
+    color: #0D83DD;
+}
+
+.Home .Home-Content .heading .bag:hover span {
+    background: #0D83DD;
+    color: #ffffff;
+}
+
+.Home .Home-Content .heading .bag {
+    position: relative;
+    cursor: pointer;
+}
+
+.Home .Home-Content .heading .bag span {
+    position: absolute;
+    font-size: 12px;
+    background: #ffffff;
+    color: #0D83DD;
+    padding: 2px 8px;
+    border-radius: 50%;
+    left: 55%;
+    top: 5px;
+    z-index: 450;
+    transition: .5s;
+}
+
+.Home .Home-Content h3 {
+    font-family: Poppins;
+    margin: 30px 0;
+    color: #0D83DD;
+    position: relative;
+    border-bottom: 2px solid #0D83DD;
+    padding-bottom: 20px;
+}
+
+.Home .Home-Content h3 sup {
+    font-size: 12px;
+    position: absolute;
+    color: rgb(128, 128, 128, .7);
+    text-transform: uppercase;
+}
+
+.Home .Home-Content .add_item {
+    font-family: Poppins;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Home .Home-Content .add_item .form-control {
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    padding: 0;
+    font-weight: normal;
+}
+
+.Home .Home-Content .add_item .form-control:focus {
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.Home .Home-Content .add_item .btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #0D83DD;
+    color: #ffffff;
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+    transition: .5s;
+    font-size: 12px;
+}
+
+.Home .Home-Content .add_item .btn:hover {
+    background: none;
+    border: 1px solid #0D83DD;
+    color: #0D83DD;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    background-color: #0D83DD;
+    color: #ffffff;
+    font-family: Quicksand;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+    font-family: Poppins;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .firstDiv {
+    border-bottom: 2px solid #0D83DD;
+    padding: 10px 20px 20px 20px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .secondDiv {
+    padding: 0 20px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .secondDiv .headings {
+    color: #0D83DD;
+}
